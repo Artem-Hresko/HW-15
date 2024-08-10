@@ -1,0 +1,38 @@
+.holder {
+border: 5px solid black;
+width: 780px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.item {
+    padding: 20px 30px;
+    flex-basis: 200px ;
+}
+
+.item:nth-child(1){
+background-color: tomato;
+order: 1;
+flex-grow: 2;
+flex-basis: 40%;
+}
+.item:nth-child(2){
+background-color: lightskyblue;
+order: 4;
+}
+.item:nth-child(3){
+background-color: purple;
+order: 3;
+}
+.item:nth-child(4){
+ background-color: green;
+ order: 5;
+}
+.item:nth-child(5){
+background-color: yellow;
+order: 2;
+flex-grow: 1.5;
+flex-basis: 40%;
+}
